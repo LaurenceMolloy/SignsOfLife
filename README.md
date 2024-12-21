@@ -102,3 +102,15 @@ User activity state is evaluated over the past 15 minutes. If any activity is de
  - heartbeat.txt must contain a timestamp only.
 
 I welcome pull requests that add Android or Apple iOS signs-of-life monitoring capabilities to the repository.
+
+
+# Github PAT 
+
+User Icon - top right
+Developer Settings
+Personal Access Tokens  - Fine Grained
+Set for individual repo (SignsOfLife)
+Permissions:
+ - Read access to metadata (mandatory)
+ - Read and Write access to code (required to push status updates to repo)
+
