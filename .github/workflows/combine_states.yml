@@ -29,7 +29,7 @@ jobs:
           SENDER_EMAIL_ADDRESS: ${{ secrets.SENDER_EMAIL_ADDRESS }}
           SENDER_EMAIL_PASSWORD: ${{ secrets.SENDER_EMAIL_PASSWORD }}
           RECIPIENT_EMAIL_ADDRESS: ${{ secrets.RECIPIENT_EMAIL_ADDRESS }}
-          ALERT_INTERVAL_SECONDS: ${{ env.ALERT_INTERVAL_SECONDS }}      
+          ALERT_INTERVAL_SECONDS: ${{ vars.ALERT_INTERVAL_SECONDS }}      
         run: |
           python src/server/combine_states.py
 
