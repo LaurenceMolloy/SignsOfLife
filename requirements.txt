@@ -1,3 +1,4 @@
 pynput 
 python-dotenv
 requests
+pynacl
